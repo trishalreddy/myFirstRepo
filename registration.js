@@ -38,7 +38,7 @@ document.getElementById("regform").addEventListener("submit", function (event) {
         alert("Please select a course");
         return;
     }
-    alert("Registration Successful!");
+    alert("Registration Completed");
 
     document.getElementById("result").innerHTML="<h2>Registration Successfull</h2>"+"<p>name: "+name+"</p><p>Email: "+email+"</p><p>password: "+password+"</p><p>Gender: "+gender+"</p><p>Course: "+course+"</p>";
 });
