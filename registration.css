@@ -1,0 +1,18 @@
+body {
+    justify-content:center;
+    align-items:center;
+}
+.middle {
+    background-color:#ffffff;
+    width:420px;
+    padding:30px;
+}
+h2 {
+    text-align:center;
+    color:#333;
+}
+.b{
+    background-color: rgb(48, 48, 148);
+    color:white;
+    padding: 5px;
+}

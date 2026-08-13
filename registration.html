@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+
+<body>
+    <div class="middle">
+        <h2>User Registration</h2>
+        <form id="regform">
+            <label>Name : </label>
+            <input type="text" id="name" placeholder="Enter Name">
+            <br><br>
+            <label>Email : </label>
+            <input type="text" id="email" placeholder="Enter Email">
+            <br><br>
+            <label>Mobile : </label>
+            <input type="text" id="number" placeholder="Enter Mobile number">
+            <br><br>
+            <label>Password : </label>
+            <input type="password" id="password" placeholder="Enter Password">
+            <br><br>
+            <label>Gender : </label>
+            <input type="radio" name="gender" value="Male">Male
+            <input type="radio" name="gender" value="Female">Female
+            <br><br>
+            <label>Course : </label>
+            <select id="course">
+                <option value="">Select course</option>
+                <option>CSE</option>
+                <option>CSM</option>
+                <option>ECE</option>
+                <option>EEE</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Register">
+        </form>
+        <div id="result">
+
+        </div>
+    </div>
+    <script src="registration.js"></script>
+</body>
+</html>
